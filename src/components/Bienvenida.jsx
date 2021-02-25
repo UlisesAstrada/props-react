@@ -4,7 +4,7 @@ function Bienvenida(props) {
   const {nombre} = props
   return (
     <div>
-      <h2>Bienvenido {nombre}</h2>
+      <h2 className="mb-3">Bienvenido {nombre}</h2>
     </div>
   )
 }
